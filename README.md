@@ -4,7 +4,7 @@
   <img width="200" img src="https://mslide.bod.nu/assets/MSlidebrand/MSlide-100-BLK.svg" alt="MSlide Framework">
 </p>
 
-## MSlide² Framework
+## MSlide 
 
 A free starter framework and reference implementation for structured content exploration.
 

@@ -4,7 +4,7 @@
   <img width="200" src="https://mslide.bod.nu/assets/MSlidebrand/MSlide3-100-BLK.svg" alt="MSlide Framework">
 </p>
 
-# MSlide³ Framework
+# MSlide³ A Content State Navigation Framework
 
 MSlide³ is planned as a vertical, scroll-based structured content navigation framework.
 

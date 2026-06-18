@@ -3,7 +3,7 @@
   <img width="200" img src="https://mslide.bod.nu/assets/MSlidebrand/MSlide2-100-BLK.svg" alt="MSlide Framework">
 </p>
 
-# MSlide² Framework
+# MSlide² A Strcutured Content Exploration Framework
 
 Structured Content Exploration Framework
 
