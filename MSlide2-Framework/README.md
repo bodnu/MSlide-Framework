@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://mslide.bod.nu/assets/MSlidebrand/MSlide2-100-BLK.svg" alt="MSlide Framework">
+</p>
+
+
 # MSlide² Framework
 
 Structured Content Exploration Framework
@@ -5,10 +10,6 @@ Structured Content Exploration Framework
 <!-- Repository screenshots will be added before public release -->
 
 <!-- Repository header image placeholder -->
-
-<p align="center">
-  <img src="https://mslide.bod.nu/assets/MSlidebrand/MSlide2-100-BLK.svg" alt="MSlide Framework">
-</p>
 
 MSlide² is a free starter framework and reference implementation for structured content exploration.
 
