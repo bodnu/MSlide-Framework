@@ -5,12 +5,6 @@
   <img style="padding-right: 70%;" img src="https://mslide.bod.nu/assets/MSlidebrand/MSlide-100-BLK.svg" alt="MSlide Framework">
 </p>
 <br>
-# MSlide Framework
-
-A public framework collection for structured content experiences.
-
-MSlide currently includes:
-
 ## MSlide² Framework
 
 A free starter framework and reference implementation for structured content exploration.
