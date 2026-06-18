@@ -2,7 +2,7 @@
 
 <br>
 <p align="center">
-  < styles="float: left" img src="https://mslide.bod.nu/assets/MSlidebrand/MSlide-100-BLK.svg" alt="MSlide Framework">
+  <img style="padding-right: 70%;" img src="https://mslide.bod.nu/assets/MSlidebrand/MSlide-100-BLK.svg" alt="MSlide Framework">
 </p>
 <br>
 # MSlide Framework
