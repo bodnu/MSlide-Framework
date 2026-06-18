@@ -1,6 +1,6 @@
 
-<p align="center">
-  <img style="padding-right: 70%;" img src="https://mslide.bod.nu/assets/MSlidebrand/MSlide2-100-BLK.svg" alt="MSlide Framework">
+<p align="left">
+  <img width="300" img src="https://mslide.bod.nu/assets/MSlidebrand/MSlide2-100-BLK.svg" alt="MSlide Framework">
 </p>
 
 # MSlide² Framework
