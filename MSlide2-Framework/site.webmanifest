@@ -1,0 +1,23 @@
+{
+  "name": "MSlide",
+  "short_name": "MSlide",
+  "id": "./index.html",
+  "description": "MSlide² Starter for the Structured Content Exploration Framework.",
+  "start_url": "./index.html",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "assets/brand/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/brand/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

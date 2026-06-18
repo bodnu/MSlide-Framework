@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MSlide² Starter</title>
+  <meta name="description" content="MSlide² Starter for the Structured Content Exploration Framework.">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/brand/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/brand/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/brand/favicon-16x16.png">
+  <link rel="mask-icon" href="assets/brand/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="manifest" href="site.webmanifest">
+
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="MSlide² Starter">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="msapplication-TileColor" content="#2d89ef">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="MSlide²">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:title" content="MSlide² Starter">
+  <meta property="og:description" content="Structured Content Exploration Framework starter.">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="MSlide² Starter">
+  <meta name="twitter:description" content="Structured Content Exploration Framework starter.">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css">
+  <link rel="stylesheet" href="dist/reset.css">
+  <link rel="stylesheet" href="dist/reveal.css">
+  <link rel="stylesheet" href="dist/theme/white.css">
+  <link rel="stylesheet" href="plugin/highlight/monokai.css">
+  <link rel="stylesheet" href="plugin/verticator/verticat/verticator.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="https://mslide.bod.nu/bulma/bulma-jumbo-tiny.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.lineicons.com/4.0/lineicons.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.0.0/animate.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bulma-toast@2.1/dist/bulma-toast.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/js/bulma-carousel.min.js"></script>
+</head>
+
+<body>
+  <h1 class="is-sr-only">
+    Structured Content Exploration Framework Starter
+  </h1>
+
+  <div id="gdpr-consent-banner">
+    <div class="container pb-0 pt-0">
+      <div class="columns is-vcentered">
+        <div class="column">
+          <figure class="image is-128x128 is-pulled-left mr-5 pt-4">
+            <img class="is-square" src="assets/brand/MSlideWT.svg" alt="MSlide²">
+          </figure>
+          <p class="has-text-white is-pulled-left pt-6 mt-3">
+            We use cookies to enhance your experience. By continuing to visit this site,<br>
+            you agree to our use of cookies.
+            <a class="is-underlined has-text-white" href="https://mslide.bod.nu/cookie-policy/" target="_blank" rel="noopener">Learn more</a>
+          </p>
+        </div>
+        <div class="column is-narrow pt-5">
+          <div class="buttons">
+            <button id="gdpr-accept" class="button has-text-weight-bold is-rounded mb-3 is-light is-text" type="button">Accept</button>
+            <button id="gdpr-decline" class="button has-text-weight-bold is-rounded mb-3 is-dark is-text" type="button">Decline</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="preloader-overlay">
+    <div class="preloader-content">
+      <div class="spinner"></div>
+    </div>
+  </div>
+
+  <div class="overlay is-fullwidth is-fullheight mobblock">
+    <div class="overlay-content is-justify-content-center">
+      <h2 class="title is-4 has-text-white mb-5 has-text-centered">
+        <i class="iconoir-computer has-text-white is-size-2 is-black m-0 p-0"></i><br>
+        Please switch your view.
+      </h2>
+      <p class="subtitle has-text-white mb-0 has-text-centered">
+        This view is best experienced<br>in tablet and desktop views.
+      </p>
+      <div class="is-flex is-justify-content-center">
+        <a href="https://mslide.bod.nu" class="mt-0 pt-0 FooterLogo">
+          <img src="assets/brand/MSlideqrWT.svg" alt="Switch view" class="image is-16by9 pt-4 pb-0 mt-0 mb-0">
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar is-fixed-top p-0 m-0" aria-label="main navigation">
+    <div class="navbar-menu is-pulled-right p-0 m-0">
+      <div class="navbar-end p-0 m-0">
+        <a class="navbar-brand is-pulled-right p-0 m-0" href="https://mslide.bod.nu" target="_parent">
+          <figure class="image is-64x64 pt-0 mt-0 mr-6">
+            <img src="assets/brand/MSlideqrWT.svg" alt="MSlide²">
+          </figure>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="reveal">
+    <div class="slides">
+      <section aria-labelledby="section-1-heading">
+        <h2 id="section-1-heading" class="is-sr-only">Section 1</h2>
+        <section data-background-color="#232323" data-menu-title="Section 1 · 1.1" data-menu-img="assets/thumbnails/thumb-dummy.webp" id="section-1-slide-1">
+          <div class="is-flex is-flex-direction-column is-justify-content-center is-align-items-center" style="height:100vh;">
+            <p class="is-size-6 has-text-grey-light mb-1">
+              Section 1
+            </p>
+            <h2 class="title is-4 has-text-white">
+              1.1
+            </h2>
+          </div>
+        </section>
+
+        <section data-background-color="#232323" data-menu-title="Section 1 · 1.2" data-menu-img="assets/thumbnails/thumb-dummy.webp" id="section-1-slide-2">
+          <div class="is-flex is-flex-direction-column is-justify-content-center is-align-items-center" style="height:100vh;">
+            <p class="is-size-6 has-text-grey-light mb-1">
+              Section 1
+            </p>
+            <h2 class="title is-4 has-text-white">
+              1.2
+            </h2>
+          </div>
+        </section>
+      </section>
+
+      <section aria-labelledby="section-2-heading">
+        <h2 id="section-2-heading" class="is-sr-only">Section 2</h2>
+        <section data-background-color="#232323" data-menu-title="Section 2 · 2.1" data-menu-img="assets/thumbnails/thumb-dummy.webp" id="section-2-slide-1">
+          <div class="is-flex is-flex-direction-column is-justify-content-center is-align-items-center" style="height:100vh;">
+            <p class="is-size-6 has-text-grey-light mb-1">
+              Section 2
+            </p>
+            <h2 class="title is-4 has-text-white">
+              2.1
+            </h2>
+          </div>
+        </section>
+
+        <section data-background-color="#232323" data-menu-title="Section 2 · 2.2" data-menu-img="assets/thumbnails/thumb-dummy.webp" id="section-2-slide-2">
+          <div class="is-flex is-flex-direction-column is-justify-content-center is-align-items-center" style="height:100vh;">
+            <p class="is-size-6 has-text-grey-light mb-1">
+              Section 2
+            </p>
+            <h2 class="title is-4 has-text-white">
+              2.2
+            </h2>
+          </div>
+        </section>
+      </section>
+
+      <section aria-labelledby="section-3-heading">
+        <h2 id="section-3-heading" class="is-sr-only">Section 3</h2>
+        <section data-background-color="#232323" data-menu-title="Section 3 · 3.1" data-menu-img="assets/thumbnails/thumb-dummy.webp" id="section-3-slide-1">
+          <div class="is-flex is-flex-direction-column is-justify-content-center is-align-items-center" style="height:100vh;">
+            <p class="is-size-6 has-text-grey-light mb-1">
+              Section 3
+            </p>
+            <h2 class="title is-4 has-text-white">
+              3.1
+            </h2>
+          </div>
+        </section>
+
+        <section data-background-color="#232323" data-menu-title="Section 3 · 3.2" data-menu-img="assets/thumbnails/thumb-dummy.webp" id="section-3-slide-2">
+          <div class="is-flex is-flex-direction-column is-justify-content-center is-align-items-center" style="height:100vh;">
+            <p class="is-size-6 has-text-grey-light mb-1">
+              Section 3
+            </p>
+            <h2 class="title is-4 has-text-white">
+              3.2
+            </h2>
+          </div>
+        </section>
+      </section>
+    </div>
+  </div>
+
+  <button id="sidebar-toggle-btn" class="sidebar-toggle-button" type="button" aria-label="Toggle sidebar">
+    <i class="iconoir-multiple-pages-empty"></i>
+  </button>
+
+  <div id="thumb-nav-toast" class="button is-large is-rounded">
+    <div class="thumb-nav-content">
+      <div class="thumb-nav-arrow"><i class="iconoir-long-arrow-up-left-solid"></i></div>
+      <div class="thumb-nav-text">Thumb</div>
+      <div class="thumb-nav-text">Navigation</div>
+    </div>
+  </div>
+
+  <script src="dist/reveal.js"></script>
+  <script src="plugin/notes/notes.js"></script>
+  <script src="plugin/markdown/markdown.js"></script>
+  <script src="plugin/highlight/highlight.js"></script>
+  <script src="plugin/verticator/verticat/verticator.js"></script>
+  <script src="plugin/menu/menu.js"></script>
+  <script src="plugin/simplemenu/simplemenu.js"></script>
+  <script src="plugin/custom.js"></script>
+</body>
+
+</html>
