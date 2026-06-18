@@ -1,7 +1,8 @@
 <!-- Repository header image placeholder -->
 
+
 <p align="left">
-  <img width="200" img src="https://mslide.bod.nu/assets/MSlidebrand/MSlide-100-BLK.svg" alt="MSlide Framework">
+  <img width="300" img src="https://mslide.bod.nu/assets/MSlidebrand/MSlide-100-BLK.svg" alt="MSlide Framework">
 </p>
 
 ## MSlide, Build interactive catalogs, menus, and high-impact landing pages.

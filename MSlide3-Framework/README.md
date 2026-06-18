@@ -1,7 +1,8 @@
 <!-- Repository header image placeholder -->
 
+
 <p align="left">
-  <img width="200" src="https://mslide.bod.nu/assets/MSlidebrand/MSlide3-100-BLK.svg" alt="MSlide Framework">
+  <img width="300" src="https://mslide.bod.nu/assets/MSlidebrand/MSlide3-100-BLK.svg" alt="MSlide Framework">
 </p>
 
 # MSlide³ A Content State Navigation Framework

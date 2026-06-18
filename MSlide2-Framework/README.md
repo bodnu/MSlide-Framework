@@ -1,6 +1,7 @@
 
+
 <p align="left">
-  <img width="200" img src="https://mslide.bod.nu/assets/MSlidebrand/MSlide2-100-BLK.svg" alt="MSlide Framework">
+  <img width="300" img src="https://mslide.bod.nu/assets/MSlidebrand/MSlide2-100-BLK.svg" alt="MSlide Framework">
 </p>
 
 # MSlide² A Strcutured Content Exploration Framework
