@@ -1,10 +1,9 @@
 <!-- Repository header image placeholder -->
 
-<br>
 <p align="center">
   <img style="padding-right: 70%;" img src="https://mslide.bod.nu/assets/MSlidebrand/MSlide-100-BLK.svg" alt="MSlide Framework">
 </p>
-<br>
+
 ## MSlide² Framework
 
 A free starter framework and reference implementation for structured content exploration.
