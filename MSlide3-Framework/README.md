@@ -1,8 +1,18 @@
 <!-- Repository header image placeholder -->
 
-
 <p align="left">
-  <img width="300" src="https://mslide.bod.nu/assets/MSlidebrand/MSlide3-100-BLK.svg" alt="MSlide Framework">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://mslide.bod.nu/assets/MSlidebrand/MSlide3.svg">
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://mslide.bod.nu/assets/MSlidebrand/MSlide3-100-BLK.svg">
+    <img
+      src="https://mslide.bod.nu/assets/MSlidebrand/MSlide3-100-BLK.svg"
+      alt="MSlide²"
+      width="250">
+  </picture>
 </p>
 
 # MSlide³ A Content State Navigation Framework
