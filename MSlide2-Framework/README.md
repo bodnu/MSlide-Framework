@@ -138,3 +138,12 @@ See [LICENSE](LICENSE).
 The code is released under the MIT License. Official MSlide brand, documentation, examples, showcase channels, and community spaces are governed by the project's acceptable use guidelines.
 
 See [../ACCEPTABLE_USE.md](../ACCEPTABLE_USE.md).
+
+| Resource | Link |
+|-----------|------|
+| Website | https://mslide.bod.nu/ |
+| MSlide² Docs | https://mslide.bod.nu/mslide-2-docs/interactive-catalog-framework/ |
+| MSlide² Demo | https://mslide.bod.nu/MSlide2/4/ |
+| MSlide³ Docs | https://mslide.bod.nu/mslide-3-docs/content-state-navigation-framework/ |
+| MSlide³ Demo | https://mslide.bod.nu/MSlide3/4/ |
+| MSlide For Food Menus | https://mslide.bod.nu/digital-menu-for-restaurants/ |
