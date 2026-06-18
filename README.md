@@ -1,7 +1,7 @@
 <!-- Repository header image placeholder -->
 
 <p align="center">
-  <img style="padding-right: 70%;" img src="https://mslide.bod.nu/assets/MSlidebrand/MSlide-100-BLK.svg" alt="MSlide Framework">
+  <img style="padding-right: 20px;" img src="https://mslide.bod.nu/assets/MSlidebrand/MSlide-100-BLK.svg" alt="MSlide Framework">
 </p>
 
 ## MSlide² Framework
