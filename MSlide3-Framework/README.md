@@ -151,24 +151,11 @@ The code is released under the MIT License. Official MSlide brand, documentation
 
 See [../ACCEPTABLE_USE.md](../ACCEPTABLE_USE.md).
 
-## Explore MSlide
-
-### Website
-
-- https://mslide.bod.nu/
-
-### Documentation
-
-- MSlide² Documentation: https://mslide.bod.nu/mslide-2-docs/interactive-catalog-framework/
-- MSlide³ Documentation: https://mslide.bod.nu/mslide-3-docs/content-state-navigation-framework/
-
-### Live Demos
-
-- MSlide² Demo: https://mslide.bod.nu/MSlide2/4/
-- MSlide³ Demo: https://mslide.bod.nu/MSlide3/4/
-
-### Products Built with MSlide
-
-- MSlide for Food Menus: https://mslide.bod.nu/digital-menu-for-restaurants/
-- Citroën: public URL pending
-- Columbia: public URL pending
+| Resource | Link |
+|-----------|------|
+| Website | https://mslide.bod.nu/ |
+| MSlide² Docs | https://mslide.bod.nu/mslide-2-docs/interactive-catalog-framework/ |
+| MSlide² Demo | https://mslide.bod.nu/MSlide2/4/ |
+| MSlide³ Docs | https://mslide.bod.nu/mslide-3-docs/content-state-navigation-framework/ |
+| MSlide³ Demo | https://mslide.bod.nu/MSlide3/4/ |
+| MSlide For Food Menus | https://mslide.bod.nu/digital-menu-for-restaurants/ |
