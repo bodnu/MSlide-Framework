@@ -79,7 +79,7 @@ The goal is to provide a lightweight foundation rather than a complete applicati
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/bodnu/MSlide-Framework.git
 cd MSlide2-Framework
 ```
 
@@ -160,6 +160,10 @@ See [../ACCEPTABLE_USE.md](../ACCEPTABLE_USE.md).
 
 | Resource | Link |
 |-----------|------|
+| GitHub Organization | https://github.com/bodnu |
+| MSlide Framework Repository | https://github.com/bodnu/MSlide-Framework |
+| MSlide² Framework Source | https://github.com/bodnu/MSlide-Framework/tree/main/MSlide2-Framework |
+| MSlide³ Framework Source | https://github.com/bodnu/MSlide-Framework/tree/main/MSlide3-Framework |
 | Website | https://mslide.bod.nu/ |
 | MSlide² Docs | https://mslide.bod.nu/mslide-2-docs/interactive-catalog-framework/ |
 | MSlide² Demo | https://mslide.bod.nu/MSlide2/4/ |

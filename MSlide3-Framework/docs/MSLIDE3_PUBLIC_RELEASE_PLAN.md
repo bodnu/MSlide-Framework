@@ -89,6 +89,10 @@ Final `.webp` image assets still need to be created before public release.
 
 Included in `README.md`:
 
+- GitHub Organization: https://github.com/bodnu
+- MSlide Framework Repository: https://github.com/bodnu/MSlide-Framework
+- MSlide² Framework Source: https://github.com/bodnu/MSlide-Framework/tree/main/MSlide2-Framework
+- MSlide³ Framework Source: https://github.com/bodnu/MSlide-Framework/tree/main/MSlide3-Framework
 - Website: https://mslide.bod.nu/
 - MSlide² Documentation: https://mslide.bod.nu/mslide-2-docs/interactive-catalog-framework/
 - MSlide³ Documentation: https://mslide.bod.nu/mslide-3-docs/content-state-navigation-framework/

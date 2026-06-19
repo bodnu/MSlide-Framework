@@ -71,6 +71,10 @@ Both frameworks are built on open technologies and are intended to remain lightw
 
 | Resource | Link |
 |-----------|------|
+| GitHub Organization | https://github.com/bodnu |
+| MSlide Framework Repository | https://github.com/bodnu/MSlide-Framework |
+| MSlide² Framework Source | https://github.com/bodnu/MSlide-Framework/tree/main/MSlide2-Framework |
+| MSlide³ Framework Source | https://github.com/bodnu/MSlide-Framework/tree/main/MSlide3-Framework |
 | Website | https://mslide.bod.nu/ |
 | MSlide² Docs | https://mslide.bod.nu/mslide-2-docs/interactive-catalog-framework/ |
 | MSlide² Demo | https://mslide.bod.nu/MSlide2/4/ |

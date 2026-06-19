@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/bodnu/MSlide-Framework/tree/main/MSlide3-Framework"
   },
   "engines": {
     "node": ">=18.0.0"
