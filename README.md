@@ -32,7 +32,7 @@ Best suited for:
 
 Status:
 
-Available now.
+Available now as the current public MVP starter.
 
 Path:
 
@@ -43,7 +43,7 @@ MSlide2-Framework/
 Release:
 
 ```text
-v4.0.0 starter
+v4.0.0 starter release includes MSlide² only
 ```
 
 ## MSlide³ Framework
@@ -59,12 +59,18 @@ Best suited for:
 
 Status:
 
-Coming later.
+Coming later. MSlide³ is not part of the current `v4.0.0` public starter release.
 
 Path:
 
 ```text
 MSlide3-Framework/
+```
+
+Current state:
+
+```text
+Release-readiness shell only. No production MSlide³ runtime is included yet.
 ```
 
 ## Acceptable Use
@@ -83,4 +89,3 @@ See [ACCEPTABLE_USE.md](ACCEPTABLE_USE.md).
 | MSlide³ Docs | https://mslide.bod.nu/mslide-3-docs/content-state-navigation-framework/ |
 | MSlide³ Demo | https://mslide.bod.nu/MSlide3/4/ |
 | MSlide For Food Menus | https://mslide.bod.nu/digital-menu-for-restaurants/ |
-

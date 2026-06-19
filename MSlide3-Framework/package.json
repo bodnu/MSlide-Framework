@@ -1,0 +1,25 @@
+{
+  "name": "mslide3-framework",
+  "version": "4.0.0",
+  "description": "MSlide³ Content State Navigation Framework starter.",
+  "homepage": "https://mslide.bod.nu/",
+  "main": "dist/mslide3.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "python3 -m http.server 8080"
+  },
+  "keywords": [
+    "mslide",
+    "mslide3",
+    "content-state-navigation",
+    "scroll-navigation",
+    "structured-content"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "MSlide³ Framework",
+  "short_name": "MSlide³",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f7f7f4",
+  "theme_color": "#1f7a68",
+  "icons": []
+}
