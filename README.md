@@ -18,11 +18,21 @@
 
 ## MSlide, Build interactive catalogs, menus, and high-impact landing pages.
 
-A free starter framework and reference implementation for structured content exploration.
+MSlide is a framework collection for structured content experiences.
 
-Built on Reveal.js and Bulma.
+It explores different approaches to navigating and presenting information beyond traditional web pages, combining concepts from presentations, documentation systems, catalogs, and interactive publications.
 
-Best suited for:
+The MSlide ecosystem currently consists of two framework directions.
+
+## MSlide² Framework
+
+**Structured Content Exploration Framework**
+
+MSlide² focuses on persistent navigation and structured exploration.
+
+It is designed for experiences where readers benefit from maintaining context while moving through larger amounts of information.
+
+Typical use cases include:
 
 - Catalogs
 - Brochures
@@ -30,54 +40,32 @@ Best suited for:
 - Reports
 - Interactive publications
 
-Status:
-
-Available now as the current public MVP starter.
-
-Path:
-
-```text
-MSlide2-Framework/
-```
-
-Release:
-
-```text
-v4.0.0 starter release includes MSlide² only
-```
+MSlide² is the current public starter framework and is available now.
 
 ## MSlide³ Framework
 
-A future framework direction for vertical, scroll-based structured content navigation.
+**Content State Navigation Framework**
 
-Best suited for:
+MSlide³ explores vertical and sequential navigation patterns for focused content journeys.
 
-- Focused sequential content
-- Step-by-step product experiences
-- Mobile-forward storytelling
-- Scroll-based guided journeys
+Its design emphasizes progressive disclosure and guided exploration.
 
-Status:
+Typical use cases include:
 
-Coming later. MSlide³ is not part of the current `v4.0.0` public starter release.
+- Product experiences
+- Guided stories
+- Sequential content flows
+- Scroll-based journeys
 
-Path:
+MSlide³ is currently under development and is not part of the current public starter release.
 
-```text
-MSlide3-Framework/
-```
+## Philosophy
 
-Current state:
+MSlide is not intended to replace websites, CMS platforms, or application frameworks.
 
-```text
-Release-readiness shell only. No production MSlide³ runtime is included yet.
-```
+Instead, it explores alternative ways of structuring and navigating content experiences while remaining compatible with standard web technologies.
 
-## Acceptable Use
-
-The code is released under the MIT License. Official MSlide brand, documentation, examples, showcase channels, and community spaces are governed by the project's acceptable use guidelines.
-
-See [ACCEPTABLE_USE.md](ACCEPTABLE_USE.md).
+Both frameworks are built on open technologies and are intended to remain lightweight, adaptable, and easy to understand.
 
 ## Learn More
 
