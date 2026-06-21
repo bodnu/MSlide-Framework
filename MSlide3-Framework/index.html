@@ -1,32 +1,254 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="MSlide³ Content State Navigation Framework starter.">
-    <title>MSlide³ Starter</title>
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="stylesheet" href="css/custom.css">
-  </head>
-  <body>
-    <main class="mslide3-starter" aria-label="MSlide3 starter sequence">
-      <section class="mslide3-section" id="start">
-        <p class="mslide3-kicker">MSlide³</p>
-        <h1>Content State Navigation Framework</h1>
-      </section>
+<html lang="en" class="has-navbar-fixed-bottom">
 
-      <section class="mslide3-section" id="sequence">
-        <p class="mslide3-kicker">Sequence</p>
-        <h2>Vertical content flow</h2>
-      </section>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#fff"> <!-- Sets top bar color -->
+  <meta name="mobile-web-app-capable" content="yes"> <!-- Enables standalone mode -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> <!-- Sets status bar style -->
 
-      <section class="mslide3-section" id="scroll">
-        <p class="mslide3-kicker">Scroll</p>
-        <h2>Focused state progression</h2>
-      </section>
-    </main>
-    <script src="config.js"></script>
-    <script src="constants.js"></script>
-    <script src="js/index.js"></script>
-  </body>
+  <title>MSlide 3.4</title>
+
+<!-- Meta tags to prevent caching -->
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0"/>
+
+<!-- icons -->
+<link rel="apple-touch-icon" sizes="180x180" href="assets/brand/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32"href="assets/brand/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16"href="assets/brand/favicon-16x16.png">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="MSlide Ipub">
+<link rel="mask-icon" href="assets/brand/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#ffffff">
+
+<!-- manifest -->
+<!--<link rel="manifest" href="site.webmanifest">-->
+
+<!-- SEO -->
+<meta name="description" content="MSlide³ is a content state navigation framework for interactive demos, guided product journeys, digital brochures, and state-based content experiences.">
+<link rel="canonical" href="https://mslide.bod.nu/MSlide3/4/">
+<link rel="image_src" href="https://mslide.bod.nu/assets/MSlidebrand/MSlide3-Content-State-Navigation-Framework.png">
+<meta name="robots" content="index,follow">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MSlide">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="MSlide³ | Content State Navigation Framework">
+<meta property="og:description" content="A content state navigation framework for interactive demos, guided product journeys, digital brochures, and state-based content experiences.">
+<meta property="og:url" content="https://mslide.bod.nu/MSlide3/4/">
+<meta property="og:image" content="https://mslide.bod.nu/assets/MSlidebrand/MSlide3-Content-State-Navigation-Framework.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<!-- Twitter / X -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="MSlide³ | Content State Navigation Framework">
+<meta name="twitter:description" content="A content state navigation framework for interactive demos, guided product journeys, digital brochures, and state-based content experiences.">
+<meta name="twitter:image" content="https://mslide.bod.nu/assets/MSlidebrand/MSlide3-Content-State-Navigation-Framework.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://mslide.bod.nu/#organization",
+      "name": "BOD",
+      "url": "https://mslide.bod.nu/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://mslide.bod.nu/assets/MSlidebrand/MSlide3-Content-State-Navigation-Framework.png",
+        "width": 1200,
+        "height": 630
+      },
+      "image": "https://mslide.bod.nu/assets/MSlidebrand/MSlide3-Content-State-Navigation-Framework.png",
+      "thumbnailUrl": "https://mslide.bod.nu/assets/MSlidebrand/MSlide3-Content-State-Navigation-Framework.png"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://mslide.bod.nu/#mslide3",
+      "name": "MSlide³",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "description": "MSlide³ is a content state navigation framework for interactive demos, guided product journeys, digital brochures, and state-based content experiences.",
+      "url": "https://mslide.bod.nu/MSlide3/4/",
+      "image": "https://mslide.bod.nu/assets/MSlidebrand/MSlide3-Content-State-Navigation-Framework.png",
+      "thumbnailUrl": "https://mslide.bod.nu/assets/MSlidebrand/MSlide3-Content-State-Navigation-Framework.png",
+      "primaryImageOfPage": {
+        "@id": "https://mslide.bod.nu/MSlide3/4/#primaryimage"
+      },
+      "publisher": {
+        "@id": "https://mslide.bod.nu/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://mslide.bod.nu/MSlide3/4/#webpage",
+      "url": "https://mslide.bod.nu/MSlide3/4/",
+      "name": "MSlide³ | Content State Navigation Framework",
+      "description": "MSlide³ is a public framework demo showing content state navigation patterns for interactive demos, guided product journeys, digital brochures, and state-based content experiences.",
+      "isPartOf": {
+        "@id": "https://mslide.bod.nu/#mslide3"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "@id": "https://mslide.bod.nu/MSlide3/4/#primaryimage",
+        "url": "https://mslide.bod.nu/assets/MSlidebrand/MSlide3-Content-State-Navigation-Framework.png",
+        "width": 1200,
+        "height": 630
+      },
+      "image": "https://mslide.bod.nu/assets/MSlidebrand/MSlide3-Content-State-Navigation-Framework.png",
+      "thumbnailUrl": "https://mslide.bod.nu/assets/MSlidebrand/MSlide3-Content-State-Navigation-Framework.png",
+      "publisher": {
+        "@id": "https://mslide.bod.nu/#organization"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://mslide.bod.nu/MSlide3/4/#creativework",
+      "name": "MSlide³ Content State Navigation Framework Demo",
+      "description": "An interactive MSlide³ public demo presenting content state navigation, component patterns, and layout states for state-based content experiences.",
+      "url": "https://mslide.bod.nu/MSlide3/4/",
+      "image": "https://mslide.bod.nu/assets/MSlidebrand/MSlide3-Content-State-Navigation-Framework.png",
+      "thumbnailUrl": "https://mslide.bod.nu/assets/MSlidebrand/MSlide3-Content-State-Navigation-Framework.png",
+      "primaryImageOfPage": {
+        "@id": "https://mslide.bod.nu/MSlide3/4/#primaryimage"
+      },
+      "isPartOf": {
+        "@id": "https://mslide.bod.nu/#mslide3"
+      },
+      "publisher": {
+        "@id": "https://mslide.bod.nu/#organization"
+      }
+    }
+  ]
+}
+</script>
+
+<!-- stylesheets -->
+<link rel="stylesheet" href="dist/reset.css">
+<link rel="stylesheet" href="dist/reveal.css">
+<link rel="stylesheet" href="dist/theme/simple.css">
+<link rel="stylesheet" href="plugin/verticator/verticat/verticator.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+<link rel="stylesheet" href="plugin/Lightweight-Preloader/css/style.css">
+
+<!-- Theme used for syntax highlighted code -->
+<link rel="stylesheet" href="plugin/highlight/monokai.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css" />
+<script defer src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/js/bulma-carousel.min.js"></script>
+<link href="https://mslide.bod.nu/bulma/bulma-jumbo-tiny.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/custom.css">
+
+
+<!-- iconoir-icons CDN -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css"/>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bulma-toast@2.1/dist/bulma-toast.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.lineicons.com/4.0/lineicons.css" />
+<link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.0.0/animate.min.css" />
+</head>
+
+<body class="">
+
+<nav class="navbar is-fixed-top p-0 m-0" id="top-menu">
+  <div class="navbar-menu is-flex is-justify-content-flex-end is-align-items-center p-0 m-0">
+    <div class="navbar-end is-flex is-align-items-center p-4">
+      <a class="toolbar-button mx-2" href="https://www.tiktok.com" target="_blank">
+        <i class="iconoir-tiktok has-text-white"></i>
+      </a>
+      <a class="toolbar-button mx-2" href="https://www.instagram.com/" target="_blank">
+        <i class="iconoir-instagram has-text-white"></i>
+      </a>
+      <a class="toolbar-button mx-2" href="https://github.com" target="_blank">
+        <i class="iconoir-github-circle has-text-white"></i>
+      </a>
+      <a class="toolbar-button mx-2" href="https://www.youtube.com" target="_blank">
+        <i class="iconoir-youtube has-text-white"></i>
+      </a>
+      <a class="navbar-brand mx-2 p-0" href="https://mslide.bod.nu" target="_parent">
+        <figure class="image m-0 p-0">
+          <img src="assets/brand/MSlideqrWT.svg" alt="MSlide Logo" />
+        </figure>
+      </a>
+    </div>
+  </div>
+</nav>
+
+<div class="reveal" id="data-container">
+
+  <nav class="navbar is-fixed-bottom mb-0" role="navigation" aria-label="main navigation">	
+    <div class="navbar-menu pl-0 pr-0 mt-2">
+      <div class="navbar-end is-justify-content-center p-0 ml-4 mr-4">
+
+        <a class="navbar-item is-pulled-left tag is-medium is-rounded is-dark" id="index-logo-trigger" href="#/section-1" aria-label="Go to Index">
+            <figure class="image">
+            <img class="mslide3-bottom-logo" src="assets/brand/MSlide3.svg" alt="MSlide3 Logo" />
+            </figure>
+        </a>
+        <a class="navbar-item is-pulled-left pr-1 pl-1 pt-0" href="#/section-1">
+          <span class="button is-rounded is-small px-2  is-black has-text-weight-medium is-warning">Section1</span>
+        </a>
+        <a class="navbar-item is-pulled-left pr-1 pl-0 pt-0" href="#/section-2">
+          <span class="button is-rounded is-small px-2  is-black has-text-weight-medium is-warning">Section2</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="slides">
+
+    <!-- MSlide3 framework demo slides -->
+    <section class="full-height-section" data-background-size="cover" data-background-color="#2b2b2b" data-menu-title="Section-1" id="section-1">
+       <div class="mslide3-slide-center is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
+            <p class="is-size-6 has-text-grey-light mb-1">
+              Section 1
+            </p>
+            <h2 class="title is-4 has-text-white">
+              1.1
+            </h2>
+          </div>
+    </section>
+
+    <section class="full-height-section" data-background-size="cover" data-background-color="#2b2b2b" data-menu-title="Section-2" id="section-2">
+       <div class="mslide3-slide-center is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
+            <p class="is-size-6 has-text-grey-light mb-1">
+              Section 2
+            </p>
+            <h2 class="title is-4 has-text-white">
+              2.1
+            </h2>
+          </div>
+    </section>
+  </div>
+</div>
+
+<script src="dist/reveal.js"></script>
+<script src="plugin/notes/notes.js"></script>
+<script src="plugin/markdown/markdown.js"></script>
+<script src="plugin/highlight/highlight.js"></script>
+<script src="plugin/verticator/verticat/verticator.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="plugin/customaster.js"></script>
+
+</body>
+
 </html>
