@@ -1,6 +1,3 @@
-<!-- Repository header image placeholder -->
-
-
 <p align="left">
   <picture>
     <source
@@ -11,16 +8,22 @@
       srcset="https://mslide.bod.nu/assets/MSlidebrand/MSlide-100-BLK.svg">
     <img
       src="https://mslide.bod.nu/assets/MSlidebrand/MSlide-100-BLK.svg"
-      alt="MSlide²"
+      alt="MSlide"
       width="250">
   </picture>
 </p>
 
-## MSlide, Build interactive catalogs, menus, and high-impact landing pages.
+# MSlide Framework
+
+A framework collection for structured content experiences built on Reveal.js and Bulma.
+
+---
+
+## MSlide² Framework
+
+**Structured Content Exploration Framework**
 
 A free starter framework and reference implementation for structured content exploration.
-
-Built on Reveal.js and Bulma.
 
 Best suited for:
 
@@ -32,7 +35,9 @@ Best suited for:
 
 Status:
 
+```text
 Available now as the current public MVP starter.
+```
 
 Path:
 
@@ -43,10 +48,14 @@ MSlide2-Framework/
 Release:
 
 ```text
-v4.0.0 starter release includes MSlide² only
+v4.0.0 starter release includes MSlide².
 ```
 
+---
+
 ## MSlide³ Framework
+
+**Content State Navigation Framework**
 
 A future framework direction for vertical, scroll-based structured content navigation.
 
@@ -59,7 +68,9 @@ Best suited for:
 
 Status:
 
-Coming later. MSlide³ is not part of the current `v4.0.0` public starter release.
+```text
+Coming later. MSlide³ is not part of the current v4.0.0 public starter release.
+```
 
 Path:
 
@@ -73,11 +84,21 @@ Current state:
 Release-readiness shell only. No production MSlide³ runtime is included yet.
 ```
 
+---
+
 ## Acceptable Use
 
-The code is released under the MIT License. Official MSlide brand, documentation, examples, showcase channels, and community spaces are governed by the project's acceptable use guidelines.
+The code is released under the MIT License.
 
-See [ACCEPTABLE_USE.md](ACCEPTABLE_USE.md).
+Official MSlide brand, documentation, examples, showcase channels, and community spaces are governed by the project's acceptable use guidelines.
+
+See:
+
+```text
+ACCEPTABLE_USE.md
+```
+
+---
 
 ## Learn More
 
@@ -93,3 +114,17 @@ See [ACCEPTABLE_USE.md](ACCEPTABLE_USE.md).
 | MSlide³ Docs | https://mslide.bod.nu/mslide-3-docs/content-state-navigation-framework/ |
 | MSlide³ Demo | https://mslide.bod.nu/MSlide3/4/ |
 | MSlide For Food Menus | https://mslide.bod.nu/digital-menu-for-restaurants/ |
+
+---
+
+Current public release:
+
+```text
+v4.0.0 → MSlide² Framework
+```
+
+Future direction:
+
+```text
+MSlide³ Framework
+```
