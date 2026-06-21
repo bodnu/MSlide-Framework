@@ -75,12 +75,21 @@ The starter framework emphasizes:
 - Scroll-based structure
 - Clear runtime boundaries
 
----
+# Acceptable Use
 
-## Installation
+The code is released under the MIT License. Official MSlide brand, documentation, examples, showcase channels, and community spaces are governed by the project's acceptable use guidelines.
 
-Clone the repository:
+See [../ACCEPTABLE_USE.md](../ACCEPTABLE_USE.md).
 
-```bash
-git clone https://github.com/bodnu/MSlide-Framework.git
-cd MSlide3-Framework
+| Resource | Link |
+|-----------|------|
+| GitHub Organization | https://github.com/bodnu |
+| MSlide Framework Repository | https://github.com/bodnu/MSlide-Framework |
+| MSlide² Framework Source | https://github.com/bodnu/MSlide-Framework/tree/main/MSlide2-Framework |
+| MSlide³ Framework Source | https://github.com/bodnu/MSlide-Framework/tree/main/MSlide3-Framework |
+| Website | https://mslide.bod.nu/ |
+| MSlide² Docs | https://mslide.bod.nu/mslide-2-docs/interactive-catalog-framework/ |
+| MSlide² Demo | https://mslide.bod.nu/MSlide2/4/ |
+| MSlide³ Docs | https://mslide.bod.nu/mslide-3-docs/content-state-navigation-framework/ |
+| MSlide³ Demo | https://mslide.bod.nu/MSlide3/4/ |
+| MSlide For Food Menus | https://mslide.bod.nu/digital-menu-for-restaurants/ |
