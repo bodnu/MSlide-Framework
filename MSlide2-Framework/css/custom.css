@@ -4,6 +4,10 @@ body, .menubar, .slide-menu-items, .slides,.reveal, .reveal h1, .reveal h2, .rev
  font-weight: normal;
 }
 
+.starter-slide-center {
+    height: 100vh;
+}
+
 .reveal a:hover{
 	color: #000;
 }
@@ -583,17 +587,6 @@ body > div.reveal.fade.center.focused.has-vertical-slides.has-horizontal-slides.
     height: auto;
     display: block;
     margin: 0 auto;
-}
-
-#gdpr-consent-banner {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background: #2b2b2be6;
-    padding: 1rem;
-    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
 }
 
 /* Style for the preloader */

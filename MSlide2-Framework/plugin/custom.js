@@ -33,7 +33,7 @@ Reveal.initialize({
       header:
         "<div class='logo-header'><a href='#'><img class='logo' src='assets/brand/MSlide2.svg'></a></div>",
       footer:
-        "<div class='menubar'><ul class='menu'><li><a href='https://mslide.bod.nu/mslide-2-docs/interactive-catalog-framework/' target='_parent'>Documentation</a></li><li><a href='https://mslide.bod.nu/terms-conditions/' target='_blank'>Terms & Conditions</a></li><li><a href='https://mslide.bod.nu/cookie-policy/' target='_blank'>Cookie Policy</a></li><li><a href='https://www.trustpilot.com/review/bod.nu?utm_medium=trustbox&utm_source=TrustBoxReviewCollector' target='_blank'>Feedback</a></li></ul><div class='toolbar'><a href='https://www.tiktok.com/@mslide.bod' target='_blank'><button class='toolbar-button'><i class='iconoir-tiktok'></i></button></a><a href='https://www.instagram.com/' target='_blank'><button class='toolbar-button'><i class='iconoir-instagram'></i></button></a><a href='https://github.com/bodnu/MSlide-Framework/tree/main/MSlide2-Framework' target='_blank'><button class='toolbar-button'><i class='iconoir-github-circle'></i></button></a><a href='https://www.youtube.com/@MSlideMedia/'><button class='toolbar-button'><i class='iconoir-youtube'></i></button></a></div><div class='logo-footer'><a href='https://mslide.bod.nu//'><img class='logo' src='assets/brand/MSlide_line.png'></a></div></div>",
+        "<div class='menubar'><ul class='menu'><li><a href='https://mslide.bod.nu/mslide-2-docs/interactive-catalog-framework/' target='_parent'>Documentation</a></li><li><a href='https://mslide.bod.nu/terms-conditions/' target='_blank'>Terms & Conditions</a></li><li><a href='https://www.trustpilot.com/review/bod.nu' target='_blank'>Feedback</a></li></ul><div class='toolbar'><a href='https://www.tiktok.com/@mslide.bod' target='_blank'><button class='toolbar-button'><i class='iconoir-tiktok'></i></button></a><a href='https://www.instagram.com/' target='_blank'><button class='toolbar-button'><i class='iconoir-instagram'></i></button></a><a href='https://github.com/bodnu/MSlide-Framework/tree/main/MSlide2-Framework' target='_blank'><button class='toolbar-button'><i class='iconoir-github-circle'></i></button></a><a href='https://www.youtube.com/@MSlideMedia/'><button class='toolbar-button'><i class='iconoir-youtube'></i></button></a></div><div class='logo-footer'><a href='https://mslide.bod.nu//'><img class='logo' src='assets/brand/MSlide_line.png'></a></div></div>",
     },
   },
   verticator: {
@@ -137,7 +137,6 @@ window.matchMedia('(display-mode: standalone)').addEventListener('change', (evt)
   if (evt.matches) {
     displayMode = 'standalone';
   }
-  // Log display mode change to analytics
   console.log('DISPLAY_MODE_CHANGED', displayMode);
 
 });
@@ -208,33 +207,6 @@ Reveal.on('slidechanged', (event) => {
     initializedSlides.add(activeSlideIndex);
   }
 });
-
-
-// JavaScript to handle consent
-    const gdprBanner = document.getElementById('gdpr-consent-banner');
-    const gdprAccept = document.getElementById('gdpr-accept');
-    const gdprDecline = document.getElementById('gdpr-decline');
-
-    // Check if consent has already been given
-    if (localStorage.getItem('gdpr-consent') === 'accepted') {
-      gdprBanner.style.display = 'none'; // Hide banner if already accepted
-    } else {
-      gdprBanner.style.display = 'block'; // Show banner if no consent
-    }
-
-    // Handle Accept button
-    gdprAccept.addEventListener('click', () => {
-      localStorage.setItem('gdpr-consent', 'accepted'); // Store consent
-      gdprBanner.style.display = 'none'; // Hide banner
-      // Add your cookie or tracking code here
-    });
-
-    // Handle Decline button
-    gdprDecline.addEventListener('click', () => {
-      localStorage.setItem('gdpr-consent', 'declined'); // Store decline
-      gdprBanner.style.display = 'none'; // Hide banner
-      // Optionally, disable cookies or tracking here
-    });
 
     // Hide preloader and display slides after content is loaded
 window.addEventListener('load', () => {

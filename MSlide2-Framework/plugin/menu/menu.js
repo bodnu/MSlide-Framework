@@ -11392,16 +11392,13 @@
       //XXX could adjust the complete menu style to match the theme, ie colors, etc
     }
 
-    var slideMenuFooterLinks = [{
-      "title": "Terms & Conditions",
-      "url": "https://mslide.bod.nu/terms-conditions/"
-    }, {
-      "title": "Cookie policy",
-      "url": "https://mslide.bod.nu/cookie-policy/"
-    }, {
-      "title": "Feedback",
-      "url": "https://www.trustpilot.com/review/bod.nu?utm_medium=trustbox&utm_source=TrustBoxReviewCollector"
-    }, {
+	    var slideMenuFooterLinks = [{
+	      "title": "Terms & Conditions",
+	      "url": "https://mslide.bod.nu/terms-conditions/"
+	    }, {
+	      "title": "Feedback",
+	      "url": "https://www.trustpilot.com/review/bod.nu"
+	    }, {
       "title": "Instagram",
       "url": "https://www.instagram.com/"
     }, {
