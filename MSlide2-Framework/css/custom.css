@@ -8,6 +8,125 @@ body, .menubar, .slide-menu-items, .slides,.reveal, .reveal h1, .reveal h2, .rev
     height: 100vh;
 }
 
+:root {
+    --mslide-launch-pad-bg: #ffffffd6;
+    --mslide-launch-pad-border: rgba(255, 255, 255, 0.85);
+    --mslide-launch-pad-text: #363636;
+}
+
+.mslide-launch-pad-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 1px;
+}
+
+.mslide-launch-pad-column {
+    display: grid;
+    grid-auto-rows: 1fr;
+    gap: 1px;
+    min-width: 0;
+}
+
+.mslide-launch-pad-entry {
+    box-sizing: border-box;
+    background-color: var(--mslide-launch-pad-bg);
+    border: 1px solid var(--mslide-launch-pad-border) !important;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.16);
+    transition: background-color 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+    width: 100%;
+}
+
+.mslide-launch-pad-entry:hover {
+    background-color: #fff;
+    border-color: #ffffff;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.22);
+}
+
+.mslide-launch-pad-entry:focus {
+    background-color: var(--mslide-launch-pad-bg);
+    border-color: #ffffff;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.22);
+}
+
+.mslide-launch-pad-corner-top-left {
+    border-top-left-radius: 6px !important;
+}
+
+.mslide-launch-pad-corner-top-right {
+    border-top-right-radius: 6px !important;
+}
+
+.mslide-launch-pad-corner-bottom-left {
+    border-bottom-left-radius: 6px !important;
+}
+
+.mslide-launch-pad-corner-bottom-right {
+    border-bottom-right-radius: 6px !important;
+}
+
+.mslide-launch-pad-title {
+    line-height: 1.15;
+    width: 100%;
+}
+
+.mslide-launch-pad-description {
+    font-size: 0.68em;
+    line-height: 1.2;
+}
+
+.mslide-overview-info-panel {
+    background-color: var(--mslide-launch-pad-bg);
+    border: 1px solid var(--mslide-launch-pad-border);
+    border-radius: 6px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.16);
+    color: var(--mslide-launch-pad-text);
+}
+
+.mslide-overview-info-panel p {
+    color: var(--mslide-launch-pad-text);
+}
+
+.mslide-doc-cta {
+    border-top: 1px solid rgba(255,255,255,.25);
+    border-bottom: 1px solid rgba(255,255,255,.25);
+}
+
+.mslide-doc-cta-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.45rem;
+    height: 1.45rem;
+    margin-right: .35rem;
+    border: 1px solid rgba(255,255,255,.35);
+    border-radius: 999px;
+    font-size: 1rem;
+    line-height: 1;
+    vertical-align: middle;
+}
+
+.fragment-layer {
+    min-height: 320px;
+    position: relative;
+}
+
+.fragment-overlay {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.tag.mslide-framework-label {
+    background-color: var(--mslide-launch-pad-bg) !important;
+    border: 1px solid var(--mslide-launch-pad-border) !important;
+    border-radius: 999px !important;
+    color: var(--mslide-launch-pad-text) !important;
+    font-weight: 600 !important;
+    letter-spacing: 0 !important;
+    text-transform: none !important;
+}
+
 .reveal a:hover{
 	color: #000;
 }
@@ -1500,4 +1619,187 @@ body.slide-menu-active .sidebar-toggle-button i {
   background-size: cover !important;
   background-position: center bottom !important;
   background-repeat: no-repeat !important;
+}
+
+/* Reusable layout helpers.
+   These class-based helpers let cloned layouts choose their own background
+   image via a bg-* class instead of relying on section ids or column order. */
+.bg-banner-1 { --bg-img: url('https://mslide.bod.nu/assets/dummy/Banner1.jpg'); }
+.bg-banner-2 { --bg-img: url('https://mslide.bod.nu/assets/dummy/Banner2.jpg'); }
+.bg-banner-3 { --bg-img: url('https://mslide.bod.nu/assets/dummy/Banner3.jpg'); }
+.bg-square-1 { --bg-img: url('https://mslide.bod.nu/assets/dummy/Square1.jpg'); }
+.bg-square-3 { --bg-img: url('https://mslide.bod.nu/assets/dummy/Square3.jpg'); }
+.bg-thumb-1 { --bg-img: url('https://mslide.bod.nu/assets/dummy/Thumb1.jpg'); }
+.bg-thumb-2 { --bg-img: url('https://mslide.bod.nu/assets/dummy/Thumb2.jpg'); }
+.bg-thumb-3 { --bg-img: url('https://mslide.bod.nu/assets/dummy/Thumb3.jpg'); }
+
+.layout-product-detail-split .columns .column .block.left {
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.layout-product-detail-split .columns .column .block.left::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: var(--bg-img);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  z-index: 0;
+}
+
+.layout-product-detail-split .columns .column .block.left > * {
+  position: relative;
+  z-index: 1;
+}
+
+.layout-product-detail-split .columns .column .block.right,
+.layout-featured-collection .columns .column .block.top-left,
+.layout-featured-collection .columns .column .block.bottom-left,
+.layout-category-collection .columns .column .block.top-left,
+.layout-category-collection .columns .column .block.top-right,
+.layout-category-collection .columns .column .block.bottom-left,
+.layout-category-collection .columns .column .block.bottom-right,
+.layout-feature-split .block.top-left,
+.layout-feature-split .block.bottom {
+  background-image: var(--bg-img) !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+.layout-product-detail-split .columns .column .block.right,
+.layout-featured-collection .columns .column .block.top-left,
+.layout-featured-collection .columns .column .block.bottom-left,
+.layout-category-collection .columns .column .block.top-left,
+.layout-category-collection .columns .column .block.top-right,
+.layout-category-collection .columns .column .block.bottom-left,
+.layout-category-collection .columns .column .block.bottom-right,
+.layout-feature-split .block.top-left {
+  background-position: center !important;
+}
+
+.layout-feature-split .block.top-left,
+.layout-feature-split .block.bottom {
+  height: 50% !important;
+}
+
+.layout-feature-split .block.bottom {
+  overflow: hidden !important;
+  background-position: center bottom !important;
+}
+
+@media (max-height: 900px) {
+  .layout-product-detail-split {
+    overflow: hidden !important;
+    max-height: 100vh !important;
+  }
+
+  .layout-product-detail-split .columns {
+    max-height: 100vh !important;
+    overflow: hidden !important;
+  }
+
+  .layout-product-detail-split .columns .column .block.left::before,
+  .layout-product-detail-split .columns .column .block.right {
+    background-attachment: local !important;
+  }
+}
+
+.overlay-bg,
+.overlay-davys-gray {
+  box-shadow: inset 0 0 0 2000px rgb(82 82 82 / 59%);
+}
+
+.overlay-rose-taupe {
+  box-shadow: inset 0 0 0 2000px #4d424287;
+}
+
+.layout-featured-collection .overlay-black-coffee,
+.layout-featured-collection .overlay-davys-gray,
+.layout-featured-collection .overlay-espresso,
+.layout-featured-collection .overlay-rose-taupe,
+.layout-category-collection .overlay-black-coffee,
+.layout-category-collection .overlay-davys-gray,
+.layout-category-collection .overlay-espresso,
+.layout-category-collection .overlay-rose-taupe {
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.layout-featured-collection .overlay-black-coffee::before,
+.layout-featured-collection .overlay-davys-gray::before,
+.layout-featured-collection .overlay-espresso::before,
+.layout-featured-collection .overlay-rose-taupe::before,
+.layout-category-collection .overlay-black-coffee::before,
+.layout-category-collection .overlay-davys-gray::before,
+.layout-category-collection .overlay-espresso::before,
+.layout-category-collection .overlay-rose-taupe::before {
+  content: '' !important;
+  position: absolute !important;
+  inset: 0 !important;
+  background: transparent !important;
+  pointer-events: none !important;
+  z-index: 1 !important;
+}
+
+.layout-featured-collection .overlay-black-coffee > *,
+.layout-featured-collection .overlay-davys-gray > *,
+.layout-featured-collection .overlay-espresso > *,
+.layout-featured-collection .overlay-rose-taupe > *,
+.layout-category-collection .overlay-black-coffee > *,
+.layout-category-collection .overlay-davys-gray > *,
+.layout-category-collection .overlay-espresso > *,
+.layout-category-collection .overlay-rose-taupe > * {
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+.layout-catalog-collection > .columns > .column > .block.blueprint,
+.layout-catalog-collection > .columns > .column > .block {
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.layout-catalog-collection > .columns > .column > .block.blueprint::before,
+.layout-catalog-collection > .columns > .column > .block::before {
+  content: '' !important;
+  position: absolute !important;
+  inset: 0 !important;
+  background-image: var(--bg-img) !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  z-index: 0 !important;
+}
+
+.layout-catalog-collection > .columns > .column > .block.blueprint > *,
+.layout-catalog-collection > .columns > .column > .block > * {
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+.layout-catalog-collection .block.blueprint > .content.blueprint {
+  background-color: transparent !important;
+}
+
+.layout-catalog-collection.has-overlay > .columns > .column > .block::before {
+  box-shadow: inset 0 0 0 2000px #4d424287;
+}
+
+.layout-catalog-collection > .columns > .column > .block.overlay-espresso::before,
+.layout-catalog-collection > .columns > .column > .block.overlay-black-coffee::before {
+  box-shadow: inset 0 0 0 2000px #2f2828b8 !important;
+  pointer-events: none !important;
+}
+
+.layout-catalog-collection > .columns > .column > .block.overlay-rose-taupe::before {
+  box-shadow: inset 0 0 0 2000px #4d424287 !important;
+  pointer-events: none !important;
+}
+
+.layout-catalog-collection > .columns > .column > .block.overlay-davys-gray::before {
+  box-shadow: inset 0 0 0 2000px rgb(82 82 82 / 59%) !important;
+  pointer-events: none !important;
 }

@@ -58,6 +58,62 @@ body, .menubar, .slide-menu-items, .slides,.reveal, .reveal h1, .reveal h2, .rev
    font-weight: normal;
 }
 
+:root {
+    --mslide-launch-pad-bg: #ffffffd6;
+    --mslide-launch-pad-border: rgba(255, 255, 255, 0.85);
+    --mslide-launch-pad-text: #363636;
+}
+
+.reveal .title,
+.reveal .subtitle,
+.reveal .button .title,
+.reveal .mslide3-launch-pad-title,
+.reveal .mslide-launch-pad-title {
+    font-family: 'Roboto', sans-serif !important;
+    text-transform: none !important;
+}
+
+.tag.mslide-framework-label {
+    background-color: var(--mslide-launch-pad-bg) !important;
+    border: 1px solid var(--mslide-launch-pad-border) !important;
+    border-radius: 999px !important;
+    color: var(--mslide-launch-pad-text) !important;
+    font-weight: 600 !important;
+    letter-spacing: 0 !important;
+    text-transform: none !important;
+}
+
+.mslide-overview-info-panel {
+    background-color: var(--mslide-launch-pad-bg);
+    border: 1px solid var(--mslide-launch-pad-border);
+    border-radius: 6px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.16);
+    color: var(--mslide-launch-pad-text);
+}
+
+.mslide-overview-info-panel p {
+    color: var(--mslide-launch-pad-text);
+}
+
+.mslide-doc-cta {
+    border-top: 1px solid rgba(255,255,255,.25);
+    border-bottom: 1px solid rgba(255,255,255,.25);
+}
+
+.mslide-doc-cta-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.45rem;
+    height: 1.45rem;
+    margin-right: .35rem;
+    border: 1px solid rgba(255,255,255,.35);
+    border-radius: 999px;
+    font-style: normal;
+    line-height: 1;
+    vertical-align: middle;
+}
+
 .reveal{
     padding-top: 1%;
 }
@@ -240,6 +296,79 @@ figure img{
     z-index: 10 !important;
     height: 50px;
     width: 100%;
+}
+
+.navbar.is-fixed-bottom .navbar-menu {
+    display: flex !important;
+    align-items: center;
+    height: auto !important;
+    min-height: 2.4rem;
+    overflow: visible;
+}
+
+.navbar.is-fixed-bottom .navbar-end {
+    align-items: center;
+    overflow: visible;
+}
+
+.navbar.is-fixed-bottom .navbar-item .button.is-warning {
+    background-color: #ffffffd6 !important;
+    border-color: rgba(255, 255, 255, 0.85) !important;
+    color: #2a2a2a !important;
+    transition: background-color 160ms ease, border-color 160ms ease;
+}
+
+.navbar.is-fixed-bottom .navbar-item:hover .button.is-warning,
+.navbar.is-fixed-bottom .navbar-item:focus .button.is-warning,
+.navbar.is-fixed-bottom .navbar-item:focus-within .button.is-warning,
+.navbar.is-fixed-bottom .button.is-warning:hover,
+.navbar.is-fixed-bottom .button.is-warning:focus {
+    background-color: #fff !important;
+    border-color: #fff !important;
+    color: #2a2a2a !important;
+}
+
+.navbar.is-fixed-bottom #index-logo-trigger.mslide-nav-logo-pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    width: auto;
+    min-width: 3.25rem;
+    max-width: 3.5rem;
+    height: 2rem;
+    min-height: 0;
+    padding: 0 0.3rem !important;
+    margin: 0;
+    border-radius: 999px;
+    background-color: #363636;
+    line-height: 1;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.navbar.is-fixed-bottom #index-logo-trigger.mslide-nav-logo-pill:hover,
+.navbar.is-fixed-bottom #index-logo-trigger.mslide-nav-logo-pill:focus,
+.navbar.is-fixed-bottom #index-logo-trigger.mslide-nav-logo-pill:focus-within {
+    background-color: #363636 !important;
+}
+
+.navbar.is-fixed-bottom #index-logo-trigger.mslide-nav-logo-pill figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    line-height: 1;
+}
+
+.navbar.is-fixed-bottom #index-logo-trigger .mslide-bottom-nav-logo {
+    display: block;
+    height: 0.74rem !important;
+    width: auto !important;
+    max-width: 2.8rem;
 }
 
 .navbar-brand{
@@ -1759,6 +1888,206 @@ background: linear-gradient(to bottom,  rgba(0,0,0,0) 20%,rgba(0,0,0,0.37) 100%)
   background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
+}
+
+#two-state-layout-wireframe .block.top-left {
+  background-image: url('../assets/Banner1.jpg');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  box-shadow: inset 0 0 0 2000px rgb(43 43 43 / 55%);
+}
+
+#two-state-layout-wireframe .block.bottom-left {
+  background-image: url('../assets/Banner2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  box-shadow: inset 0 0 0 2000px rgb(43 43 43 / 55%);
+}
+
+#index .mslide3-launch-pad-entry {
+    box-sizing: border-box;
+    background-color: var(--mslide-launch-pad-bg);
+    border: 1px solid var(--mslide-launch-pad-border) !important;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.16);
+    min-width: 0;
+    transition: background-color 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+    width: 100%;
+}
+
+#index .mslide3-launch-pad-entry:hover {
+    background-color: #fff;
+    border-color: #ffffff;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.22);
+}
+
+#index .mslide3-launch-pad-entry:focus {
+    background-color: var(--mslide-launch-pad-bg);
+    border-color: #ffffff;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.22);
+}
+
+#index .mslide3-launch-pad-stack {
+    display: grid !important;
+    align-items: stretch;
+    box-sizing: border-box;
+    gap: 1px;
+    grid-auto-rows: 1fr;
+    justify-items: stretch;
+}
+
+#index .mslide-launch-pad-split-row {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 1px;
+    height: 100%;
+    justify-self: stretch;
+    max-width: 100%;
+    width: 100%;
+}
+
+#index .mslide3-launch-pad-final-cell {
+    box-sizing: border-box;
+    display: grid;
+    justify-items: stretch;
+    max-width: 100%;
+    min-width: 0;
+}
+
+#index .mslide-launch-pad-split-row .mslide3-launch-pad-entry,
+#index .mslide-launch-pad-split-row .mslide3-launch-pad-title {
+    box-sizing: border-box;
+    min-width: 0;
+    width: 100%;
+}
+
+#index .mslide3-launch-pad-corner-top-left {
+    border-top-left-radius: 6px !important;
+}
+
+#index .mslide3-launch-pad-corner-top-right {
+    border-top-right-radius: 6px !important;
+}
+
+#index .mslide3-launch-pad-corner-bottom-left {
+    border-bottom-left-radius: 6px !important;
+}
+
+#index .mslide3-launch-pad-corner-bottom-right {
+    border-bottom-right-radius: 6px !important;
+}
+
+#index .mslide3-launch-pad-title {
+    line-height: 1.15;
+    width: 100%;
+}
+
+#index .mslide3-launch-pad-description {
+    font-size: 0.68em;
+    line-height: 1.2;
+}
+
+.reveal .button.is-rounded {
+    border-radius: 999px !important;
+}
+
+.reveal .button.pricetag {
+    align-items: center;
+    border: none !important;
+    color: #fff !important;
+    display: inline-flex;
+    height: auto;
+    justify-content: flex-start;
+    line-height: 1;
+    min-height: 0;
+    text-align: left;
+    white-space: normal;
+}
+
+.reveal .button.pricetag .multiline-text {
+    display: grid;
+    line-height: normal;
+    white-space: pre-line;
+}
+
+.tabs.tabs-bottom.is-toggle li.is-active a,
+.tabs.tabs-bottom.is-toggle a.has-background-primary {
+    background-color: var(--bulma-success, #48c78e) !important;
+    border-color: var(--bulma-success, #48c78e) !important;
+    color: #fff !important;
+}
+
+#commerce-info-tab::before {
+  background-image: url('../assets/Modal1.jpg');
+}
+
+#commerce-map-tab::before {
+  background-image: url('../assets/Modal2.jpg');
+}
+
+#overview-content-state-navigation {
+    position: relative;
+    overflow: hidden;
+}
+
+#overview-content-state-navigation .title,
+#overview-content-state-navigation p,
+#overview-content-state-navigation a {
+    color: #fff !important;
+    opacity: 1 !important;
+}
+
+#overview-content-state-navigation .mslide3-overview-product-scroll {
+    min-height: 100vh;
+    height: 100vh;
+}
+
+#overview-content-state-navigation .mslide3-overview-inner {
+    width: 100%;
+    max-width: 760px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#overview-content-state-navigation .mslide3-overview-top {
+    height: 30%;
+    box-sizing: border-box;
+}
+
+#overview-content-state-navigation .mslide3-overview-bottom {
+    height: 70%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#overview-content-state-navigation .mslide3-overview-bottom > .column {
+    height: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#overview-content-state-navigation .mslide3-overview-scroll {
+    height: 100%;
+    max-height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto !important;
+    overflow-x: hidden;
+    padding-bottom: 4rem;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    touch-action: pan-y;
+    -webkit-overflow-scrolling: touch;
+}
+
+#overview-content-state-navigation .mslide3-overview-scroll::-webkit-scrollbar {
+    display: none;
 }
 
 .mslide3-bottom-logo {
