@@ -1868,7 +1868,7 @@ background: linear-gradient(to bottom,  rgba(0,0,0,0) 20%,rgba(0,0,0,0.37) 100%)
     
 }
 
-/* Component-view4: top and bottom blocks — distinct background images */
+/* Component-view4: top and bottom blocks - distinct background images */
 
 #Component-view4 .block.top-left {
   background-image: url('../assets/Banner1.jpg');

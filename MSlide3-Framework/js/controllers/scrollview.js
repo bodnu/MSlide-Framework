@@ -25,7 +25,7 @@ export default class ScrollView {
 
 	/**
 	 * Activates the scroll view. This rearranges the presentation DOM
-	 * by—among other things—wrapping each slide in a page element.
+	 * by-among other things-wrapping each slide in a page element.
 	 */
 	activate() {
 

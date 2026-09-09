@@ -673,7 +673,7 @@ body > div.reveal.fade.center.focused.has-vertical-slides.has-horizontal-slides.
     background-color: #363636;
 }
 
-/* mobblock — full-screen mobile-only gate */
+/* mobblock - full-screen mobile-only gate */
 
 .mobblock {
     display: none;
@@ -947,7 +947,7 @@ body > div.reveal.fade.center.focused.has-vertical-slides.has-horizontal-slides.
   background-repeat: no-repeat !important;
 }
 
-/* Equalise slider item heights in #slider3 — force identical aspect ratio
+/* Equalise slider item heights in #slider3 - force identical aspect ratio
    matching the source images (1678×410) so all three items are the same height */
 #slider3 .item-1,
 #slider3 .item-2,
@@ -1480,7 +1480,7 @@ body.slide-menu-active .sidebar-toggle-button i {
       font-size: unset !important;
     }
 
-    /* Show mobblock on phones — hidden from tablet portrait (769px+) upward */
+    /* Show mobblock on phones - hidden from tablet portrait (769px+) upward */
     .mobblock {
         display: flex !important;
     }
@@ -1522,10 +1522,10 @@ body.slide-menu-active .sidebar-toggle-button i {
     right: 8px !important;
   }
 
-  /* slide-menu-button is globally display:none — do NOT override it here */
+  /* slide-menu-button is globally display:none - do NOT override it here */
 }
 
-/* Tablet landscape / 1024×768+ — restore full desktop nav controls */
+/* Tablet landscape / 1024×768+ - restore full desktop nav controls */
 @media screen and (min-width: 1024px) {
   .sidebar-toggle-button {
     display: flex !important;
@@ -1564,7 +1564,7 @@ body.slide-menu-active .sidebar-toggle-button i {
   font-size: 1em;
 }
 
-/* Override gradient — add .no-grad to the section to remove the gradient overlay */
+/* Override gradient - add .no-grad to the section to remove the gradient overlay */
 .no-grad .hero-body,
 .no-grad .hero-carousel-background-overlay,
 .no-grad .grad-bg {
