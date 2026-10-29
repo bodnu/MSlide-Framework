@@ -11397,7 +11397,7 @@
 	      "url": "https://mslide.cc/terms-conditions/"
 	    }, {
 	      "title": "Feedback",
-	      "url": "https://www.trustpilot.com/review/bod.nu"
+	      "url": "mailto:info@mslide.cc?subject=MSlide%C2%B2%20feedback"
 	    }, {
       "title": "Instagram",
       "url": "https://www.instagram.com/"
