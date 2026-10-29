@@ -2,12 +2,12 @@
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://mslide.bod.nu/assets/MSlidebrand/MSlideWT.svg">
+      srcset="https://mslide.cc/assets/MSlidebrand/MSlideWT.svg">
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://mslide.bod.nu/assets/MSlidebrand/MSlide-100-BLK.svg">
+      srcset="https://mslide.cc/assets/MSlidebrand/MSlide-100-BLK.svg">
     <img
-      src="https://mslide.bod.nu/assets/MSlidebrand/MSlide-100-BLK.svg"
+      src="https://mslide.cc/assets/MSlidebrand/MSlide-100-BLK.svg"
       alt="MSlide"
       width="250">
   </picture>
@@ -108,12 +108,12 @@ ACCEPTABLE_USE.md
 | MSlide Framework Repository | https://github.com/bodnu/MSlide-Framework |
 | MSlide² Framework Source | https://github.com/bodnu/MSlide-Framework/tree/main/MSlide2-Framework |
 | MSlide³ Framework Source | https://github.com/bodnu/MSlide-Framework/tree/main/MSlide3-Framework |
-| Website | https://mslide.bod.nu/ |
-| MSlide² Docs | https://mslide.bod.nu/mslide-2-docs/interactive-catalog-framework/ |
-| MSlide² Demo | https://mslide.bod.nu/MSlide2/4/ |
-| MSlide³ Docs | https://mslide.bod.nu/mslide-3-docs/content-state-navigation-framework/ |
-| MSlide³ Demo | https://mslide.bod.nu/MSlide3/4/ |
-| MSlide For Food Menus | https://mslide.bod.nu/digital-menu-for-restaurants/ |
+| Website | https://mslide.cc/ |
+| MSlide² Docs | https://mslide.cc/mslide-2-docs/interactive-catalog-framework/ |
+| MSlide² Demo | https://2.mslide.org/ |
+| MSlide³ Docs | https://mslide.cc/mslide-3-docs/content-state-navigation-framework/ |
+| MSlide³ Demo | https://3.mslide.org/ |
+| MSlide For Food Menus | https://mslide.cc/digital-menu-for-restaurants/ |
 
 ---
 

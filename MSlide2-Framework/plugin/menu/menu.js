@@ -11394,7 +11394,7 @@
 
 	    var slideMenuFooterLinks = [{
 	      "title": "Terms & Conditions",
-	      "url": "https://mslide.bod.nu/terms-conditions/"
+	      "url": "https://mslide.cc/terms-conditions/"
 	    }, {
 	      "title": "Feedback",
 	      "url": "https://www.trustpilot.com/review/bod.nu"

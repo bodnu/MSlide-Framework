@@ -14,7 +14,7 @@ If you discover a security issue in MSlide Framework, please do not open a publi
 
 Instead, report it privately by contacting:
 
-mslide@bod.nu
+info@mslide.cc
 
 Please include:
 

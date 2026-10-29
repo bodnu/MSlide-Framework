@@ -613,11 +613,11 @@ const Plugin = () => {
   let slideMenuFooterLinks = [
     {
       "title": "Terms & Conditions",
-      "url": "https://blstdemo.website/mslide/mslide1.6.6/master1.6.6.html"
+      "url": "https://mslide.cc/terms-conditions/"
     },
     {
       "title": "Cookie policy",
-      "url": "https://blstdemo.website/mslide/mslide1.6.6/master1.6.6.html"
+      "url": "https://mslide.cc/cookie-policy/"
     },
     {
       "title": "Feedback",

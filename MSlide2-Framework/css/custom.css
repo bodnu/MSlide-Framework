@@ -768,7 +768,7 @@ body > div.reveal.fade.center.focused.has-vertical-slides.has-horizontal-slides.
 
 /* Hero Cover B bottom block background */
 .reveal .slides .block.blueprint.bottom {
-  background-image: url('https://mslide.bod.nu/assets/dummy/Banner2.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/Banner2.jpg') !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
@@ -791,7 +791,7 @@ body > div.reveal.fade.center.focused.has-vertical-slides.has-horizontal-slides.
   content: '';
   position: absolute;
   inset: 0;
-  background-image: url('https://mslide.bod.nu/assets/dummy/Square1.jpg');
+  background-image: url('https://mslide.cc/assets/dummy/Square1.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -805,7 +805,7 @@ body > div.reveal.fade.center.focused.has-vertical-slides.has-horizontal-slides.
 }
 
 #col2-A-wireframe .columns .column .block.right {
-  background-image: url('https://mslide.bod.nu/assets/dummy/Square3.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/Square3.jpg') !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
@@ -821,7 +821,7 @@ body > div.reveal.fade.center.focused.has-vertical-slides.has-horizontal-slides.
   content: '';
   position: absolute;
   inset: 0;
-  background-image: url('https://mslide.bod.nu/assets/dummy/Columb6A.gif');
+  background-image: url('https://mslide.cc/assets/dummy/Columb6A.gif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -834,7 +834,7 @@ body > div.reveal.fade.center.focused.has-vertical-slides.has-horizontal-slides.
 }
 
 #col2-A-content .columns .column .block.right {
-  background-image: url('https://mslide.bod.nu/assets/dummy/columb6B.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/columb6B.jpg') !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
@@ -869,28 +869,28 @@ body > div.reveal.fade.center.focused.has-vertical-slides.has-horizontal-slides.
 
 /* 2 column layout B banner backgrounds */
 #two-col-layout-b > .columns > .column:first-child > .block.blueprint.top-left {
-  background-image: url('https://mslide.bod.nu/assets/dummy/Banner1.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/Banner1.jpg') !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
 
 #two-col-layout-b > .columns > .column:last-child > .block.blueprint.top-left {
-  background-image: url('https://mslide.bod.nu/assets/dummy/Banner3.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/Banner3.jpg') !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
 
 #two-col-layout-b > .columns > .column:first-child > .block.blueprint.bottom-left {
-  background-image: url('https://mslide.bod.nu/assets/dummy/Banner3.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/Banner3.jpg') !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
 
 #two-col-layout-b > .columns > .column:last-child > .block.blueprint.bottom-left {
-  background-image: url('https://mslide.bod.nu/assets/dummy/Banner1.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/Banner1.jpg') !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
@@ -898,42 +898,42 @@ body > div.reveal.fade.center.focused.has-vertical-slides.has-horizontal-slides.
 
 /* 3 column layout A backgrounds - Top: 1,2,3 / Bottom: 3,2,1 */
 #three-col-layout-a > .columns > .column:nth-child(1) > .block.blueprint.top-left {
-  background-image: url('https://mslide.bod.nu/assets/dummy/Thumb1.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/Thumb1.jpg') !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
 
 #three-col-layout-a > .columns > .column:nth-child(2) > .block.blueprint.top-right {
-  background-image: url('https://mslide.bod.nu/assets/dummy/Thumb3.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/Thumb3.jpg') !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
 
 #three-col-layout-a > .columns > .column:nth-child(3) > .block.blueprint.top-right {
-  background-image: url('https://mslide.bod.nu/assets/dummy/Thumb2.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/Thumb2.jpg') !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
 
 #three-col-layout-a > .columns > .column:nth-child(1) > .block.blueprint.bottom-left {
-  background-image: url('https://mslide.bod.nu/assets/dummy/Thumb3.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/Thumb3.jpg') !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
 
 #three-col-layout-a > .columns > .column:nth-child(2) > .block.blueprint.bottom-right {
-  background-image: url('https://mslide.bod.nu/assets/dummy/Thumb2.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/Thumb2.jpg') !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
 
 #three-col-layout-a > .columns > .column:nth-child(3) > .block.blueprint.bottom-right {
-  background-image: url('https://mslide.bod.nu/assets/dummy/Thumb1.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/Thumb1.jpg') !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
@@ -941,7 +941,7 @@ body > div.reveal.fade.center.focused.has-vertical-slides.has-horizontal-slides.
 
 #hero-cover-d-content .block.bottom{
   overflow: hidden !important;
-  background-image: url('https://mslide.bod.nu/assets/dummy/columb-bann-4.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/columb-bann-4.jpg') !important;
   background-size: cover !important;
   background-position: center bottom !important;
   background-repeat: no-repeat !important;
@@ -1004,36 +1004,36 @@ body > div.reveal.fade.center.focused.has-vertical-slides.has-horizontal-slides.
 
 /* Top row: Thumb2, Thumb3, Thumb2, Thumb3 */
 #four-col-layout-b > .columns > .column:nth-child(1) > .block.blueprint.top-left::before {
-  background-image: url('https://mslide.bod.nu/assets/dummy/Thumb1.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/Thumb1.jpg') !important;
 }
 
 #four-col-layout-b > .columns > .column:nth-child(2) > .block.blueprint.top-right::before {
-  background-image: url('https://mslide.bod.nu/assets/dummy/Thumb3.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/Thumb3.jpg') !important;
 }
 
 #four-col-layout-b > .columns > .column:nth-child(3) > .block.blueprint.top-right::before {
-  background-image: url('https://mslide.bod.nu/assets/dummy/Thumb2.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/Thumb2.jpg') !important;
 }
 
 #four-col-layout-b > .columns > .column:nth-child(4) > .block.blueprint.top-right::before {
-  background-image: url('https://mslide.bod.nu/assets/dummy/Thumb3.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/Thumb3.jpg') !important;
 }
 
 /* Bottom row: Thumb3, Thumb2, Thumb3, Thumb2 */
 #four-col-layout-b > .columns > .column:nth-child(1) > .block.blueprint.bottom-left::before {
-  background-image: url('https://mslide.bod.nu/assets/dummy/Thumb3.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/Thumb3.jpg') !important;
 }
 
 #four-col-layout-b > .columns > .column:nth-child(2) > .block.blueprint.bottom-right::before {
-  background-image: url('https://mslide.bod.nu/assets/dummy/Thumb2.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/Thumb2.jpg') !important;
 }
 
 #four-col-layout-b > .columns > .column:nth-child(3) > .block.blueprint.bottom-right::before {
-  background-image: url('https://mslide.bod.nu/assets/dummy/Thumb3.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/Thumb3.jpg') !important;
 }
 
 #four-col-layout-b > .columns > .column:nth-child(4) > .block.blueprint.bottom-right::before {
-  background-image: url('https://mslide.bod.nu/assets/dummy/Thumb1.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/Thumb1.jpg') !important;
 }
 
 /* Make inner content transparent so backgrounds show through */
@@ -1043,28 +1043,28 @@ body > div.reveal.fade.center.focused.has-vertical-slides.has-horizontal-slides.
 
 /* ── 2 column layout B - Content View backgrounds ── */
 #two-col-layout-b-content > .columns > .column:first-child > .block.top-left {
-  background-image: url('https://mslide.bod.nu/assets/dummy/columb-shoe1b.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/columb-shoe1b.jpg') !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
 
 #two-col-layout-b-content > .columns > .column:last-child > .block.top-left {
-  background-image: url('https://mslide.bod.nu/assets/dummy/columb-shoe1.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/columb-shoe1.jpg') !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
 
 #two-col-layout-b-content > .columns > .column:first-child > .block.bottom-left {
-  background-image: url('https://mslide.bod.nu/assets/dummy/columb-shoe2.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/columb-shoe2.jpg') !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
 
 #two-col-layout-b-content > .columns > .column:last-child > .block.bottom-left {
-  background-image: url('https://mslide.bod.nu/assets/dummy/columb-shoe2b.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/columb-shoe2b.jpg') !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
@@ -1072,42 +1072,42 @@ body > div.reveal.fade.center.focused.has-vertical-slides.has-horizontal-slides.
 
 /* ── 3 column layout A - Content View backgrounds ── */
 #three-col-layout-a-content > .columns > .column:nth-child(1) > .block.top-left {
-  background-image: url('https://mslide.bod.nu/assets/dummy/columb8C.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/columb8C.jpg') !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
 
 #three-col-layout-a-content > .columns > .column:nth-child(2) > .block.top-right {
-  background-image: url('https://mslide.bod.nu/assets/dummy/columb9A.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/columb9A.jpg') !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
 
 #three-col-layout-a-content > .columns > .column:nth-child(3) > .block.top-right {
-  background-image: url('https://mslide.bod.nu/assets/dummy/columb10B.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/columb10B.jpg') !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
 
 #three-col-layout-a-content > .columns > .column:nth-child(1) > .block.bottom-left {
-  background-image: url('https://mslide.bod.nu/assets/dummy/columb8B.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/columb8B.jpg') !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
 
 #three-col-layout-a-content > .columns > .column:nth-child(2) > .block.bottom-right {
-  background-image: url('https://mslide.bod.nu/assets/dummy/columb9B.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/columb9B.jpg') !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
 
 #three-col-layout-a-content > .columns > .column:nth-child(3) > .block.bottom-right {
-  background-image: url('https://mslide.bod.nu/assets/dummy/columb10A.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/columb10A.jpg') !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
@@ -1140,38 +1140,38 @@ body > div.reveal.fade.center.focused.has-vertical-slides.has-horizontal-slides.
 
 /* Top row: Thumb2, Thumb3, Thumb2, Thumb3 */
 #four-col-layout-b-content > .columns > .column:nth-child(1) > .block.top-left{
-  background-image: url('https://mslide.bod.nu/assets/dummy/columb12A.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/columb12A.jpg') !important;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #four-col-layout-b-content > .columns > .column:nth-child(2) > .block.top-right::before {
-  background-image: url('https://mslide.bod.nu/assets/dummy/columb14A.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/columb14A.jpg') !important;
 }
 
 #four-col-layout-b-content > .columns > .column:nth-child(3) > .block.top-right::before {
-  background-image: url('https://mslide.bod.nu/assets/dummy/columb16A.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/columb16A.jpg') !important;
 }
 
 #four-col-layout-b-content > .columns > .column:nth-child(4) > .block.top-right::before {
-  background-image: url('https://mslide.bod.nu/assets/dummy/columb18A.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/columb18A.jpg') !important;
 }
 
 /* Bottom row: Thumb3, Thumb2, Thumb3, Thumb2 */
 #four-col-layout-b-content > .columns > .column:nth-child(1) > .block.bottom-left::before {
-  background-image: url('https://mslide.bod.nu/assets/dummy/columb13A.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/columb13A.jpg') !important;
 }
 
 #four-col-layout-b-content > .columns > .column:nth-child(2) > .block.bottom-right::before {
-  background-image: url('https://mslide.bod.nu/assets/dummy/columb15A.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/columb15A.jpg') !important;
 }
 
 #four-col-layout-b-content > .columns > .column:nth-child(3) > .block.bottom-right::before {
-  background-image: url('https://mslide.bod.nu/assets/dummy/columb17A.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/columb17A.jpg') !important;
 }
 
 #four-col-layout-b-content > .columns > .column:nth-child(4) > .block.bottom-right{
-  background-image: url('https://mslide.bod.nu/assets/dummy/columb11A.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/columb11A.jpg') !important;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1592,14 +1592,14 @@ body.slide-menu-active .sidebar-toggle-button i {
 
 /* 2 row layout A - Wireframe backgrounds */
 [id="2rowA-wireframe"] .block.blueprint.top-left {
-  background-image: url('https://mslide.bod.nu/assets/dummy/Banner1.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/Banner1.jpg') !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
 
 [id="2rowA-wireframe"] .block.blueprint.bottom {
-  background-image: url('https://mslide.bod.nu/assets/dummy/Banner2.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/Banner2.jpg') !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
@@ -1607,7 +1607,7 @@ body.slide-menu-active .sidebar-toggle-button i {
 
 /* 2 row layout A - Content backgrounds */
 [id="2rowA-content"] .block.top-left {
-  background-image: url('https://mslide.bod.nu/assets/dummy/columb-bann-1.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/columb-bann-1.jpg') !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
@@ -1615,7 +1615,7 @@ body.slide-menu-active .sidebar-toggle-button i {
 
 [id="2rowA-content"] .block.bottom {
   overflow: hidden !important;
-  background-image: url('https://mslide.bod.nu/assets/dummy/columb-bann-4.jpg') !important;
+  background-image: url('https://mslide.cc/assets/dummy/columb-bann-4.jpg') !important;
   background-size: cover !important;
   background-position: center bottom !important;
   background-repeat: no-repeat !important;
@@ -1624,14 +1624,14 @@ body.slide-menu-active .sidebar-toggle-button i {
 /* Reusable layout helpers.
    These class-based helpers let cloned layouts choose their own background
    image via a bg-* class instead of relying on section ids or column order. */
-.bg-banner-1 { --bg-img: url('https://mslide.bod.nu/assets/dummy/Banner1.jpg'); }
-.bg-banner-2 { --bg-img: url('https://mslide.bod.nu/assets/dummy/Banner2.jpg'); }
-.bg-banner-3 { --bg-img: url('https://mslide.bod.nu/assets/dummy/Banner3.jpg'); }
-.bg-square-1 { --bg-img: url('https://mslide.bod.nu/assets/dummy/Square1.jpg'); }
-.bg-square-3 { --bg-img: url('https://mslide.bod.nu/assets/dummy/Square3.jpg'); }
-.bg-thumb-1 { --bg-img: url('https://mslide.bod.nu/assets/dummy/Thumb1.jpg'); }
-.bg-thumb-2 { --bg-img: url('https://mslide.bod.nu/assets/dummy/Thumb2.jpg'); }
-.bg-thumb-3 { --bg-img: url('https://mslide.bod.nu/assets/dummy/Thumb3.jpg'); }
+.bg-banner-1 { --bg-img: url('https://mslide.cc/assets/dummy/Banner1.jpg'); }
+.bg-banner-2 { --bg-img: url('https://mslide.cc/assets/dummy/Banner2.jpg'); }
+.bg-banner-3 { --bg-img: url('https://mslide.cc/assets/dummy/Banner3.jpg'); }
+.bg-square-1 { --bg-img: url('https://mslide.cc/assets/dummy/Square1.jpg'); }
+.bg-square-3 { --bg-img: url('https://mslide.cc/assets/dummy/Square3.jpg'); }
+.bg-thumb-1 { --bg-img: url('https://mslide.cc/assets/dummy/Thumb1.jpg'); }
+.bg-thumb-2 { --bg-img: url('https://mslide.cc/assets/dummy/Thumb2.jpg'); }
+.bg-thumb-3 { --bg-img: url('https://mslide.cc/assets/dummy/Thumb3.jpg'); }
 
 .layout-product-detail-split .columns .column .block.left {
   position: relative !important;
